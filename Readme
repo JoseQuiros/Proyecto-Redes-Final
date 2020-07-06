@@ -11,29 +11,29 @@ Netbeans 8.2: https://www.oracle.com/technetwork/es/java/javase/downloads/jdk-ne
 
 Ahora si, teniendo esto procederemos a descargar el proyecto, para ello es necesario darle en el boton COPY y luego DOWNLOAD ZIP 
 
-![redesDescargar](https://user-images.githubusercontent.com/37676810/86637938-a6566900-bf93-11ea-88f4-650b766906b6.png)
+![redesDescargar](https://user-images.githubusercontent.com/37676810/86641294-44e4c900-bf98-11ea-81c3-33b27b7f85ac.png)
+
 
 Al tener el zip en nuestro almacenamiento correspondiente, procederemos a descomprimir y obtendremos los siguientes archivos
 
-![Proyecto-Redes--master 6_7_2020 14_23_33](https://user-images.githubusercontent.com/37676810/86638340-5af08a80-bf94-11ea-950f-c7c2a62bf4ef.png)
+![Proyecto-Redes--master 6_7_2020 14_23_33](https://user-images.githubusercontent.com/37676810/86641404-575f0280-bf98-11ea-8cbd-e433c60aba62.png)
+
 
 Luego de esto, abriremos Netbeans 8.2 y daremos en la sgte opcion para cargar los proyectos
-![ServerFTP - NetBeans IDE 8 2 6_7_2020 14_34_03](https://user-images.githubusercontent.com/37676810/86639296-ea4a6d80-bf95-11ea-9034-3e8ad390749e.png)
+![ServerFTP - NetBeans IDE 8 2 6_7_2020 14_34_03](https://user-images.githubusercontent.com/37676810/86641457-61810100-bf98-11ea-8a0d-49a89c8bcfa0.png)
 
 Luego abriremos cada proyecto como lo indica la imagen
-![ServerFTP - NetBeans IDE 8 2 6_7_2020 14_30_29](https://user-images.githubusercontent.com/37676810/86639322-f5050280-bf95-11ea-9370-1b66480a9ac5.png)
+![ServerFTP - NetBeans IDE 8 2 6_7_2020 14_30_29](https://user-images.githubusercontent.com/37676810/86641508-6b0a6900-bf98-11ea-973c-83ea9e876faa.png)
 
 Una vez cargados los proyectos los veremos de la sgte manera
-
-![ServerFTP - NetBeans IDE 8 2 6_7_2020 14_37_48](https://user-images.githubusercontent.com/37676810/86639603-65ac1f00-bf96-11ea-88b7-f0a0867b5c28.png)
+![ServerFTP - NetBeans IDE 8 2 6_7_2020 14_37_48](https://user-images.githubusercontent.com/37676810/86641550-73fb3a80-bf98-11ea-9158-5757bcb2c2fc.png)
 
 Como mencionamos en la descripcion el proposito de este proyecto es realizar un respaldo de archivos en el servidor, el cual recibe archivos desde un cliente que se encuentra registrado, Este cliente se encuentra almacenado en una base de datos Mysql creada por nosotros los desarrolladores, para su conexion desde java se necesita un Java Database Connectivity, más conocida por sus siglas JDBC, es una API que permite la ejecución de operaciones sobre bases de datos desde el lenguaje de programación Java.
 Para facilidad nosotros suministramos las librerias en la misma carpeta del proyecto, para instalarlas es necesario :
-
-![ServerFTP - NetBeans IDE 8 2 6_7_2020 14_44_51](https://user-images.githubusercontent.com/37676810/86640182-4cf03900-bf97-11ea-8dbb-65ada9c621f8.png)
+![ServerFTP - NetBeans IDE 8 2 6_7_2020 14_44_51](https://user-images.githubusercontent.com/37676810/86641616-82e1ed00-bf98-11ea-8435-0e4bcda8d0a0.png)
 
 Luego de esto procederemos a seleccionar los 2 archivos jar que se encuentran en la carpeta y darle a la opcion abrir
-![ServerFTP - NetBeans IDE 8 2 6_7_2020 14_37_39](https://user-images.githubusercontent.com/37676810/86640237-5d081880-bf97-11ea-8350-f00faf085903.png)
+![ServerFTP - NetBeans IDE 8 2 6_7_2020 14_49_03](https://user-images.githubusercontent.com/37676810/86641662-8b3a2800-bf98-11ea-8363-15124321a601.png)
 
 Concluido todo esto, se tiene lo necesario para ejecutar el proyecto, para saber sobre su utilizacion dirigirse al manual de usuario
 
