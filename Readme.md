@@ -7,6 +7,7 @@ Java Development Kit (8 o superior):
      https://www.oracle.com/java/technologies/javase-downloads.html
 
 Se puede utilizar cualquier ide de desarrollo que utilice java y en este caso, ejecute dicho lenguaje, nosotros para la utilizacion y elaboracion de este proyecto utilizamos
+
 Netbeans 8.2: https://www.oracle.com/technetwork/es/java/javase/downloads/jdk-netbeans-jsp-3413139-esa.html
 
 Ahora si, teniendo esto procederemos a descargar el proyecto, para ello es necesario darle en el boton COPY y luego DOWNLOAD ZIP 
@@ -20,9 +21,11 @@ Al tener el zip en nuestro almacenamiento correspondiente, procederemos a descom
 
 
 Luego de esto, abriremos Netbeans 8.2 y daremos en la sgte opcion para cargar los proyectos
+
 ![ServerFTP - NetBeans IDE 8 2 6_7_2020 14_34_03](https://user-images.githubusercontent.com/37676810/86641457-61810100-bf98-11ea-8a0d-49a89c8bcfa0.png)
 
 Luego abriremos cada proyecto como lo indica la imagen
+
 ![ServerFTP - NetBeans IDE 8 2 6_7_2020 14_30_29](https://user-images.githubusercontent.com/37676810/86641508-6b0a6900-bf98-11ea-973c-83ea9e876faa.png)
 
 Una vez cargados los proyectos los veremos de la sgte manera
@@ -31,9 +34,11 @@ Una vez cargados los proyectos los veremos de la sgte manera
 
 Como mencionamos en la descripcion el proposito de este proyecto es realizar un respaldo de archivos en el servidor, el cual recibe archivos desde un cliente que se encuentra registrado, Este cliente se encuentra almacenado en una base de datos Mysql creada por nosotros los desarrolladores, para su conexion desde java se necesita un Java Database Connectivity, más conocida por sus siglas JDBC, es una API que permite la ejecución de operaciones sobre bases de datos desde el lenguaje de programación Java.
 Para facilidad nosotros suministramos las librerias en la misma carpeta del proyecto, para instalarlas es necesario :
+
 ![ServerFTP - NetBeans IDE 8 2 6_7_2020 14_44_51](https://user-images.githubusercontent.com/37676810/86641616-82e1ed00-bf98-11ea-8435-0e4bcda8d0a0.png)
 
 Luego de esto procederemos a seleccionar los 2 archivos jar que se encuentran en la carpeta y darle a la opcion abrir
+
 ![ServerFTP - NetBeans IDE 8 2 6_7_2020 14_49_03](https://user-images.githubusercontent.com/37676810/86641662-8b3a2800-bf98-11ea-8363-15124321a601.png)
 
 Concluido todo esto, se tiene lo necesario para ejecutar el proyecto, para saber sobre su utilizacion dirigirse al manual de usuario
