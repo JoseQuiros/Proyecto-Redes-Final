@@ -26,6 +26,7 @@ Luego abriremos cada proyecto como lo indica la imagen
 ![ServerFTP - NetBeans IDE 8 2 6_7_2020 14_30_29](https://user-images.githubusercontent.com/37676810/86641508-6b0a6900-bf98-11ea-973c-83ea9e876faa.png)
 
 Una vez cargados los proyectos los veremos de la sgte manera
+
 ![ServerFTP - NetBeans IDE 8 2 6_7_2020 14_37_48](https://user-images.githubusercontent.com/37676810/86641550-73fb3a80-bf98-11ea-9158-5757bcb2c2fc.png)
 
 Como mencionamos en la descripcion el proposito de este proyecto es realizar un respaldo de archivos en el servidor, el cual recibe archivos desde un cliente que se encuentra registrado, Este cliente se encuentra almacenado en una base de datos Mysql creada por nosotros los desarrolladores, para su conexion desde java se necesita un Java Database Connectivity, más conocida por sus siglas JDBC, es una API que permite la ejecución de operaciones sobre bases de datos desde el lenguaje de programación Java.
