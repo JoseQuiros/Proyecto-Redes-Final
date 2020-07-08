@@ -43,15 +43,21 @@ Luego de esto procederemos a seleccionar los 2 archivos jar que se encuentran en
 
 Para la utilizacion de esto es necesario configurar la conexion a base de datos de la siguiente manera
 
-public class BaseDeDatos {
-   String URL = "jdbc:mysql://163.178.107.10/"; // Ubicación de la BD.
-    String BD = "PROYECTO1REDES"; // Nombre de la BD.
-    String USER = "-----";
-    String PASSWORD = "---- ";
-    String a="?useSSL=false";
-    public Connection conexion = null;
 
-    @SuppressWarnings("finally")
+     @public class BaseDeDatos {
+     
+    String URL = "jdbc:mysql://163.178.107.10/"; // Ubicación de la BD.
+    String BD = "PROYECTO1REDES"; // Nombre de la BD.
+    
+    String USER = "-----";
+    
+    String PASSWORD = "---- ";
+    
+    String a="?useSSL=false";
+    
+    public Connection conexion = null;
+    
+    SuppressWarnings("finally")
     public Connection conectar() throws SQLException {
         try {
             Class.forName("com.mysql.jdbc.Driver");
