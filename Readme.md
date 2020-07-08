@@ -41,37 +41,6 @@ Luego de esto procederemos a seleccionar los 2 archivos jar que se encuentran en
 
 ![ServerFTP - NetBeans IDE 8 2 6_7_2020 14_49_03](https://user-images.githubusercontent.com/37676810/86641662-8b3a2800-bf98-11ea-8363-15124321a601.png)
 
-Para la utilizacion de esto es necesario configurar la conexion a base de datos de la siguiente manera
-
-
-     @public class BaseDeDatos {
-     
-    String URL = "jdbc:mysql://163.178.107.10/"; // Ubicación de la BD.
-    String BD = "PROYECTO1REDES"; // Nombre de la BD.
-    
-    String USER = "-----";
-    
-    String PASSWORD = "---- ";
-    
-    String a="?useSSL=false";
-    
-    public Connection conexion = null;
-    
-    SuppressWarnings("finally")
-    public Connection conectar() throws SQLException {
-        try {
-            Class.forName("com.mysql.jdbc.Driver");
-            conexion = DriverManager.getConnection(URL + BD+a, USER, PASSWORD);
-            if (conexion != null) {
-                System.out.println("¡Conexión Exitosa!");
-            }
-        } catch (Exception e) {
-            e.printStackTrace();
-        } finally {
-            return conexion;
-        }
-    }
-}
 
 Concluido todo esto, se tiene lo necesario para ejecutar el proyecto, para saber sobre su utilizacion dirigirse al manual de usuario
 
