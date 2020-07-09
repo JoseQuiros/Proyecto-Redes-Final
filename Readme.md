@@ -10,6 +10,12 @@ Se puede utilizar cualquier ide de desarrollo que utilice java y en este caso, e
 
 Netbeans 8.2: https://www.oracle.com/technetwork/es/java/javase/downloads/jdk-netbeans-jsp-3413139-esa.html
 
+Se ha agregado la caracteristca de encriptacion de los bytes de los archivos que se envian, la encriptacion de los bytes se logro convirtiendo cada byte a String y posteriormente encriptando cada String y se envia el archivo, cuando se recibe el archivo cada String encriptado se desencripta y se añaden a un array luego ese arrayse convierte a un array de bytes y se crea el archivo. 
+
+Los metodos necesarios para la encriptacion SHA1 que se uso en el proyecto estan en el siguiente link.
+
+Encriptacion: https://medium.com/el-acordeon-del-programador/encriptaci%C3%B3n-aes-en-java-ebb81ddf82b
+
 Ahora si, teniendo esto procederemos a descargar el proyecto, para ello es necesario darle en el boton COPY y luego DOWNLOAD ZIP 
 
 ![redesDescargar](https://user-images.githubusercontent.com/37676810/86641294-44e4c900-bf98-11ea-81c3-33b27b7f85ac.png)
